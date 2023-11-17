@@ -1,11 +1,10 @@
-// const url  = "https://api.escuelajs.co/api/v1/products";
 const url  = "https://dummyjson.com/products/";
 fetch(url)
 .then(function(respons){
     return respons.json();
 })
 .then(function (data) {
-    console.log(data.products);
+    // console.log(data.products);
     data.products.slice(0,6*6).forEach(prodact => {
         document.querySelector(".big").innerHTML += `
         <div class="product">
@@ -16,9 +15,4 @@ fetch(url)
             </div>
             `;
         });
-        // <button>أضف إلى السلة </button>
 })
-// <p>${prodact.description}</p>
-// .then(res => res.json())
-// .then(
-// );
