@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 79, 68);
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.logo{
+    width: 110px;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(60, 79, 68) ;
+}
+.menu, a , nav {
+    background-color:rgb(60, 79, 68); 
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px grey ;
+
+}
+.menu{
+    list-style: none;
+}
+
+.menu a{
+    display: inline-block;
+    padding: 0px 30px;
+    color: #fff;
+    text-decoration: none ;
+}
+
+.menu a:hover{
+    transition: all 0.3s ease 0s;
+    color:rgb(187, 218, 200);
+}
+
+.menu2{
+    width: 100%;
+    height: 52px;
+    border: 1px solid  grey;
+    direction: ltr;
+}
+.menu2 .search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 .search-box input{
+    font-size: 14px;
+    padding: 2px 12px;
+    margin: 10px 30px;
+    width: 30%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    display: inline-block;
+    outline-color: rgb(106, 105, 105);
+    text-align: right;
+}
+
+#menu3{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left:350px;
+}
+
+.menu31 a{
+    width: 100%;
+    height: 52px;
+    list-style: none;
+    color:rgb(63, 75, 63) ;
+    background-color: #fff;
+    padding: 0px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.menu31 a:hover{
+    font-weight: 400;
+    color: rgb(42, 70, 51);
+}
+.big{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+}
+
+.product{
+    border: 1px solid rgb(141, 157, 145);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+.product:hover{
+    box-shadow: 1px 1px 7px grey;
+}
+
+.product img{
+    border-radius: 3px;
+    height: 50%;
+    margin: 0px 3.5px;
+}
+/* .product p {
+    font-size: 3em;
+} */
+
+.product button{
+    background-color: rgb(139, 154, 144);
+    color: #fff;
+    border: 1px solid rgb(89, 111, 94) ;
+    border-radius: 4px;
+    padding: 2px 7px;
+    margin: 10px 45px;
+    font-size: 14px;
+    transition: all 0.5s ease 0s;
+  }
+
+  button:hover{
+    background-color: rgb(106, 132, 112);
+    box-shadow: 1px 1px 3px rgb(148, 148, 148);
+  }
+
+.pagination{
+    display: flex;
+    align-items: center;
+    background:#fff;
+    color: #383838;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+  
+ul{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+display: inline-block;
+margin: 0 10px ;
+background: #ccc;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+text-align: center;
+font-size: 22px;
+font-weight: 500;
+line-height: 45px;
+cursor: pointer;
+transition: all 0.6s ease-in 0s;
+}
+
+li:hover{
+    color: #ffffff;
+    background-color: rgb(83, 109, 89);
+}
+
+.btn1,.btn2{
+  display: inline-block;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 500px;
+  color: #383838;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover,.btn2:hover{
+color: #fff;
+}
